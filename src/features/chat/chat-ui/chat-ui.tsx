@@ -53,7 +53,7 @@ export const ChatUI: FC<Prop> = (props) => {
             description: error.message,
             action: (
                 <ToastAction
-                    altText="Try again"
+                    altText="Please try again"
                     onClick={() => {
                         reload();
                     }}
